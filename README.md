@@ -3,6 +3,8 @@ A simple python script for plotting audio using Librosa.
 
 ## Usage
 
+`python wave_plotter.py FILENAME`
+
 ## Dependencies
 
-Librosa, numpy and matplotlib are needed to run this script.
+Librosa, Numpy and Matplotlib are needed to run this script.
