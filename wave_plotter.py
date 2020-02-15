@@ -40,7 +40,7 @@ def plot_spectrogram(y, kind='linear'):
     if title == '':
         title = 'Spectrogram'
     D = librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max)
-    librosa.display.specshow(D, y_axis=kind)
+    librosa.display.specshow(D, x_axis='time', y_axis=kind)
     plt.title(title)
 
 
